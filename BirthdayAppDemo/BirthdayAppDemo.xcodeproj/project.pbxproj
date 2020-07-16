@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC02D588249FA259009D59A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC02D587249FA259009D59A6 /* AppDelegate.swift */; };
+		EC02D58A249FA259009D59A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC02D589249FA259009D59A6 /* SceneDelegate.swift */; };
+		EC02D58D249FA259009D59A6 /* BirthdayAppDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC02D58B249FA259009D59A6 /* BirthdayAppDemo.xcdatamodeld */; };
+		EC02D58F249FA259009D59A6 /* BirthdayList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC02D58E249FA259009D59A6 /* BirthdayList.swift */; };
+		EC02D591249FA25E009D59A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC02D590249FA25E009D59A6 /* Assets.xcassets */; };
+		EC02D594249FA25E009D59A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC02D593249FA25E009D59A6 /* Preview Assets.xcassets */; };
+		EC02D597249FA25E009D59A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC02D595249FA25E009D59A6 /* LaunchScreen.storyboard */; };
+		EC02D5A624A0E580009D59A6 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC02D5A524A0E580009D59A6 /* DataManager.swift */; };
+		EC02D5A824A22B0F009D59A6 /* BirthdayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC02D5A724A22B0F009D59A6 /* BirthdayViewModel.swift */; };
+		EC02D5AA24A22DA7009D59A6 /* BirthdayListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC02D5A924A22DA7009D59A6 /* BirthdayListViewModel.swift */; };
+		EC02D5AC24A22F54009D59A6 /* BirthdayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC02D5AB24A22F54009D59A6 /* BirthdayCell.swift */; };
+		EC02D5AE24A4CE11009D59A6 /* AddNewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC02D5AD24A4CE11009D59A6 /* AddNewViewModel.swift */; };
+		EC02D5B024A4CE6E009D59A6 /* AddNewBirthdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC02D5AF24A4CE6E009D59A6 /* AddNewBirthdayView.swift */; };
+		EC02D5B224A4D1E3009D59A6 /* DismissKeyboardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC02D5B124A4D1E3009D59A6 /* DismissKeyboardHelper.swift */; };
+		EC02D5B424A61F49009D59A6 /* UpdateBirthdayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC02D5B324A61F49009D59A6 /* UpdateBirthdayViewModel.swift */; };
+		EC02D5B624A62049009D59A6 /* UpdateBirthdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC02D5B524A62049009D59A6 /* UpdateBirthdayView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC02D584249FA259009D59A6 /* BirthdayAppDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BirthdayAppDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC02D587249FA259009D59A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC02D589249FA259009D59A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EC02D58C249FA259009D59A6 /* BirthdayAppDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BirthdayAppDemo.xcdatamodel; sourceTree = "<group>"; };
+		EC02D58E249FA259009D59A6 /* BirthdayList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayList.swift; sourceTree = "<group>"; };
+		EC02D590249FA25E009D59A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC02D593249FA25E009D59A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC02D596249FA25E009D59A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC02D598249FA25E009D59A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC02D5A524A0E580009D59A6 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		EC02D5A724A22B0F009D59A6 /* BirthdayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayViewModel.swift; sourceTree = "<group>"; };
+		EC02D5A924A22DA7009D59A6 /* BirthdayListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayListViewModel.swift; sourceTree = "<group>"; };
+		EC02D5AB24A22F54009D59A6 /* BirthdayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayCell.swift; sourceTree = "<group>"; };
+		EC02D5AD24A4CE11009D59A6 /* AddNewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewViewModel.swift; sourceTree = "<group>"; };
+		EC02D5AF24A4CE6E009D59A6 /* AddNewBirthdayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewBirthdayView.swift; sourceTree = "<group>"; };
+		EC02D5B124A4D1E3009D59A6 /* DismissKeyboardHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissKeyboardHelper.swift; sourceTree = "<group>"; };
+		EC02D5B324A61F49009D59A6 /* UpdateBirthdayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateBirthdayViewModel.swift; sourceTree = "<group>"; };
+		EC02D5B524A62049009D59A6 /* UpdateBirthdayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateBirthdayView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC02D581249FA259009D59A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC02D57B249FA259009D59A6 = {
+			isa = PBXGroup;
+			children = (
+				EC02D586249FA259009D59A6 /* BirthdayAppDemo */,
+				EC02D585249FA259009D59A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC02D585249FA259009D59A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC02D584249FA259009D59A6 /* BirthdayAppDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC02D586249FA259009D59A6 /* BirthdayAppDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EC02D5A4249FA36C009D59A6 /* Services */,
+				EC02D5A3249FA351009D59A6 /* Models */,
+				EC02D5A2249FA346009D59A6 /* ViewModels */,
+				EC02D5A1249FA339009D59A6 /* Views */,
+				EC02D5A0249FA318009D59A6 /* App */,
+				EC02D59F249FA2F8009D59A6 /* CoreDataDB */,
+				EC02D59E249FA2EC009D59A6 /* Utils */,
+			);
+			path = BirthdayAppDemo;
+			sourceTree = "<group>";
+		};
+		EC02D592249FA25E009D59A6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EC02D593249FA25E009D59A6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EC02D59E249FA2EC009D59A6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EC02D5B124A4D1E3009D59A6 /* DismissKeyboardHelper.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		EC02D59F249FA2F8009D59A6 /* CoreDataDB */ = {
+			isa = PBXGroup;
+			children = (
+				EC02D58B249FA259009D59A6 /* BirthdayAppDemo.xcdatamodeld */,
+			);
+			name = CoreDataDB;
+			sourceTree = "<group>";
+		};
+		EC02D5A0249FA318009D59A6 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EC02D587249FA259009D59A6 /* AppDelegate.swift */,
+				EC02D589249FA259009D59A6 /* SceneDelegate.swift */,
+				EC02D590249FA25E009D59A6 /* Assets.xcassets */,
+				EC02D595249FA25E009D59A6 /* LaunchScreen.storyboard */,
+				EC02D598249FA25E009D59A6 /* Info.plist */,
+				EC02D592249FA25E009D59A6 /* Preview Content */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		EC02D5A1249FA339009D59A6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EC02D58E249FA259009D59A6 /* BirthdayList.swift */,
+				EC02D5AB24A22F54009D59A6 /* BirthdayCell.swift */,
+				EC02D5AF24A4CE6E009D59A6 /* AddNewBirthdayView.swift */,
+				EC02D5B524A62049009D59A6 /* UpdateBirthdayView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		EC02D5A2249FA346009D59A6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				EC02D5A724A22B0F009D59A6 /* BirthdayViewModel.swift */,
+				EC02D5A924A22DA7009D59A6 /* BirthdayListViewModel.swift */,
+				EC02D5AD24A4CE11009D59A6 /* AddNewViewModel.swift */,
+				EC02D5B324A61F49009D59A6 /* UpdateBirthdayViewModel.swift */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		EC02D5A3249FA351009D59A6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		EC02D5A4249FA36C009D59A6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EC02D5A524A0E580009D59A6 /* DataManager.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC02D583249FA259009D59A6 /* BirthdayAppDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC02D59B249FA25E009D59A6 /* Build configuration list for PBXNativeTarget "BirthdayAppDemo" */;
+			buildPhases = (
+				EC02D580249FA259009D59A6 /* Sources */,
+				EC02D581249FA259009D59A6 /* Frameworks */,
+				EC02D582249FA259009D59A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BirthdayAppDemo;
+			productName = BirthdayAppDemo;
+			productReference = EC02D584249FA259009D59A6 /* BirthdayAppDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC02D57C249FA259009D59A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = DevTechie;
+				TargetAttributes = {
+					EC02D583249FA259009D59A6 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = EC02D57F249FA259009D59A6 /* Build configuration list for PBXProject "BirthdayAppDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC02D57B249FA259009D59A6;
+			productRefGroup = EC02D585249FA259009D59A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC02D583249FA259009D59A6 /* BirthdayAppDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC02D582249FA259009D59A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC02D597249FA25E009D59A6 /* LaunchScreen.storyboard in Resources */,
+				EC02D594249FA25E009D59A6 /* Preview Assets.xcassets in Resources */,
+				EC02D591249FA25E009D59A6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC02D580249FA259009D59A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC02D5AA24A22DA7009D59A6 /* BirthdayListViewModel.swift in Sources */,
+				EC02D5B224A4D1E3009D59A6 /* DismissKeyboardHelper.swift in Sources */,
+				EC02D58D249FA259009D59A6 /* BirthdayAppDemo.xcdatamodeld in Sources */,
+				EC02D5A624A0E580009D59A6 /* DataManager.swift in Sources */,
+				EC02D588249FA259009D59A6 /* AppDelegate.swift in Sources */,
+				EC02D5B024A4CE6E009D59A6 /* AddNewBirthdayView.swift in Sources */,
+				EC02D5AE24A4CE11009D59A6 /* AddNewViewModel.swift in Sources */,
+				EC02D5B624A62049009D59A6 /* UpdateBirthdayView.swift in Sources */,
+				EC02D5AC24A22F54009D59A6 /* BirthdayCell.swift in Sources */,
+				EC02D5A824A22B0F009D59A6 /* BirthdayViewModel.swift in Sources */,
+				EC02D58F249FA259009D59A6 /* BirthdayList.swift in Sources */,
+				EC02D5B424A61F49009D59A6 /* UpdateBirthdayViewModel.swift in Sources */,
+				EC02D58A249FA259009D59A6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC02D595249FA25E009D59A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC02D596249FA25E009D59A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC02D599249FA25E009D59A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC02D59A249FA25E009D59A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC02D59C249FA25E009D59A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BirthdayAppDemo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BirthdayAppDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.devtechie.BirthdayAppDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC02D59D249FA25E009D59A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BirthdayAppDemo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BirthdayAppDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.devtechie.BirthdayAppDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC02D57F249FA259009D59A6 /* Build configuration list for PBXProject "BirthdayAppDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC02D599249FA25E009D59A6 /* Debug */,
+				EC02D59A249FA25E009D59A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC02D59B249FA25E009D59A6 /* Build configuration list for PBXNativeTarget "BirthdayAppDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC02D59C249FA25E009D59A6 /* Debug */,
+				EC02D59D249FA25E009D59A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EC02D58B249FA259009D59A6 /* BirthdayAppDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EC02D58C249FA259009D59A6 /* BirthdayAppDemo.xcdatamodel */,
+			);
+			currentVersion = EC02D58C249FA259009D59A6 /* BirthdayAppDemo.xcdatamodel */;
+			path = BirthdayAppDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EC02D57C249FA259009D59A6 /* Project object */;
+}
